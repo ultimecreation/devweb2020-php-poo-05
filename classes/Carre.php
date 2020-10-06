@@ -1,9 +1,6 @@
 <?php
+
 declare(strict_types=1);
-namespace Main;
-
-require("Rectangle.php");
-
 
 
 class Carre extends Rectangle {    
@@ -16,12 +13,7 @@ class Carre extends Rectangle {
     public function __construct(float $length){
         parent::__construct( $length,$width=null);
     }
-
-    /**
-     * perimeter
-     *
-     * @return void
-     */    
+   
     /**
      * perimeter
      *

@@ -1,6 +1,6 @@
 <?php 
 declare(strict_types=1);
-namespace Main;
+
 
 class Rectangle extends Forme2D {
     protected $length;
